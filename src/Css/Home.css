@@ -1,0 +1,35 @@
+.slideshow-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+  max-width: 100%; 
+  overflow: hidden;
+  margin-top: 20px; 
+}
+
+.fade {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 50%;
+  height: 25%;
+}
+
+.fade.show {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.like-dislike-buttons {
+  margin-top: 20px; 
+}
+
+.like-dislike-buttons button {
+  margin: 0 10px; 
+}

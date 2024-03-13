@@ -1,0 +1,54 @@
+.Header {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+ height: 63px;
+  align-items: center;
+  background-color: #333;
+  color:white;
+  flex-direction: row;
+ 
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: orange;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.nav ul li a:hover {
+  color: #ddd;
+}
+
+.namelogo{
+  margin-left: 0px;
+text-decoration-style: wavy;
+
+}
+
+.nav{
+  margin-left: 850px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
