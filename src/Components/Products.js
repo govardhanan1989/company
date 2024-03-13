@@ -47,7 +47,7 @@ const Products = () => {
         <h1>ENQUIRY</h1>
         <label htmlFor='name'><h4>Name/Company Name </h4></label>
         <input className='post' placeholder='Your name' value={name} onChange={(e) => setName(e.target.value)} />
-        <label htmlFor='requirements'>Material</label>
+        <label htmlFor='requirements'>Materialss</label>
         <input className='post' placeholder='Product' value={product} onChange={(e) => setProduct(e.target.value)} />
         <label htmlFor='quantity'>Quantity</label>
         <input className='post' placeholder='Quantity' value={quantity} onChange={(e) => setQuantity(e.target.value)} /><br /> <br />
